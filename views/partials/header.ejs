@@ -1,0 +1,37 @@
+<!-- 
+  Author: Phuong Linh Pham (300923800)
+  File Name: partials/header.ejs
+  Description: This is header
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Scripts/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Scripts/lib/bootstrap/dist/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="/Scripts/lib/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/Scripts/lib/hover/css/hover-min.css"/> <!-- For hover effect -->
+    <link rel="stylesheet" href="/Scripts/lib/animate.css/animate.min.css"/> <!-- For animation effect -->
+    <link rel='stylesheet' href='/Contents/app.css' />
+    <title><%= title %></title>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation" style="padding-left:10px;">
+        <div class="container">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="hvr-sink"><a href="/"><i class="fa fa-home fa-3x"></i> Home</a></li>
+                    <li class="hvr-sink"><a href="/about"><i class="fa fa-address-book-o fa-3x"></i> About</a></li>
+                    <li class="hvr-sink"><a href="/projects"><i class="fa fa-archive fa-3x"></i> Projects</a></li>
+                    <li class="hvr-sink"><a href="/services"><i class="fa fa-briefcase fa-3x"></i> Services</a></li>
+                    <li class="hvr-buzz"><a href="/contact"><i class="fa fa-phone fa-3x"></i> Contact</a></li>
+                </ul>
+            </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container-fluid --> 
+    </nav>

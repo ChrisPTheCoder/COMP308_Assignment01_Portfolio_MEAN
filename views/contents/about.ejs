@@ -1,0 +1,35 @@
+<!-- 
+  Author: Phuong Linh Pham (300923800)
+  File Name: about.ejs
+  Website Name: About Phuong Linh Pham
+  Description: This page contains about myself '/about'
+-->
+
+<% include ../partials/header.ejs %>
+<div class="container-fluid body" id="about">
+  <div class="row">
+    <div class="col-md-offset-0 col-md-12">
+      <div class="bodyContainer about">
+        <!-- Floating fonts -->              
+        <img src="Contents/images/linhp_profile.jpg" class="animated pulse" id="about_profile" alt="Phuong Linh Pham Profile Photo"/>        
+        <!-- Information Title -->
+        <p id="about_more_info_title" class="animated pulse infinite"><b>Information</b></p>
+        <!-- Information Contents -->
+        <dl id="about_more_info_contents">
+          <dt>Education</dt>
+          <dd>&nbsp; 2017 to Current: &nbsp;Software Engineering Technology Advanced Diploma at Centennial College</dd>
+          <dt>Skills and Knowledge</dt>
+          <dd>&nbsp; Android Development, Bootsrap, C#, CSS, HP UFT Automation, HTTP 5, Java, Javscript, JQuery, JSON</dd> 
+          <dd>&nbsp; PHP, MS Office Tools, UML, Unity, VBA, VBS, Waterfall, XML</dd>
+        </dl>
+        <!-- Floating Paragraph Beside Profile Image -->
+        <div class="floating about">
+          <p><i>" Hello, my name is Phuong Linh Pham<br>
+          Below are brief information about myself "</i>
+          </p>
+        </div>
+      </div> <!-- .bodyContainer about -->      
+    </div> <!-- .col-md-offset-3 col-md-6 -->
+  </div> <!-- .row -->  
+</div> <!-- .container-fluid body -->
+<% include ../partials/footer.ejs %>

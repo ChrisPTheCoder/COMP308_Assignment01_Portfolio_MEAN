@@ -1,0 +1,38 @@
+{
+  "name": "linhp-assignment-1",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.5.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "description": "Phuong Linh Pham's Express Site",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisPTheCoder/COMP308_Assignment01_Portfolio.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "author": "Phuong Linh Pham (300923800)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisPTheCoder/COMP308_Assignment01_Portfolio/issues"
+  },
+  "homepage": "https://github.com/ChrisPTheCoder/COMP308_Assignment01_Portfolio#readme"
+}

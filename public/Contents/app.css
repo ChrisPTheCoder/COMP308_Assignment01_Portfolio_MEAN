@@ -1,0 +1,193 @@
+/**
+ *  Author: Phuong Linh Pham (300923800)
+ *  File Name: Contents/app.css
+ *  Description: This is my custom CSS
+ */
+
+/* 
+NAVIGATION BAR 
+*/
+.navbar.navbar-default{
+    width:650px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* 
+Body Styling 
+*/
+body {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+
+.container-fluid.body{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 600px;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;    
+    overflow-y:auto;
+}
+
+/* 
+index.ejs style 
+*/
+/* Style for home body container */
+#home{
+    background-color: #ffffff;
+    border-color: #00cca3;
+}
+
+#name {
+    color: #00cca3;
+}
+
+.bodyContainer.home{
+    margin-top: 30%;
+}
+
+/*
+ about.ejs style 
+ */
+.floating.about{
+    font-size: 1.5em;
+    margin-left: 360px;
+    margin-top: -440px;
+    position: inherit;
+}
+
+
+#about_profile{ /* Profile photo */
+    margin-top: 25px;
+    margin-left: 25px;
+    height: 300px;
+    border-radius: 250px;
+}
+
+#about{
+    border-color: #ff6666;
+}
+
+#about_more_info_title{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.75em;
+    color: #ff6666;
+}
+
+#about_more_info_contents{
+    padding-left: 20px;
+    text-align: left;
+    font-size: 1.25em;
+}
+/* 
+projects.ejs style 
+*/
+/* Projects within border body container */
+.bodyContainer.projects{
+    font-size: 1.25em;
+    width: 75%;
+    margin: auto;
+}
+
+.bodyContainer.projects h2{
+    color: #0099cc;
+}
+
+.bodyContainer.projects ol{
+    text-align: left;
+    width: 100%;
+}
+
+.bodyContainer.projects li{
+    padding: 0px 0px 5px 10px; /* Add padding 5px to bottom of list item and 10px to left */
+}
+
+.bodyContainer.projects a:link, a:visited{
+    color: #808080;    
+}
+
+.bodyContainer.projects a:hover{
+    color: #0099cc;
+    text-decoration: none;
+}
+
+#projects{
+    border-color: #0099cc;    
+}
+
+/*
+services.ejs style 
+*/
+/* Services within border body container */
+
+.bodyContainer.services{
+    width: 70%;
+    margin: auto;
+    font-size: 1.25em;
+}
+
+.bodyContainer.services ol{
+    text-align: left;
+    width: 90%;
+    margin: auto;
+}
+
+.bodyContainer.services li{    
+    padding: 0px 0px 15px 15px; /* Add padding 5px to bottom of list item and 10px to left */
+}
+
+#services{
+    border-color: #ffcc00
+}
+
+/*
+contact.ejs style
+*/
+.bodyContainer.contact{
+    width: 100%;
+    margin-top: 30%;
+    font-size: 1.5em;
+}
+
+#contact{
+    border-color: #000000;
+}
+
+.bodyContainer.services a:link, a:visited{
+    color: #808080;       
+}
+
+.bodyContainer.services a:hover{
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+
+/* Footer */
+.navbar.navbar-default.navbar-fixed-bottom{
+    width: 100%;    
+    text-align: center;
+}
+
+/*
+MODAL VIWER
+*/
+
+.modal-body{
+    background-color: black;
+}
+
+.modal-content{
+    background-color: rgba(0,0,0,0.5); /* Transparency 50% */
+}
+
+.modal-header
+{
+    color: #ffffff;
+    text-align: center;
+}
+
+
