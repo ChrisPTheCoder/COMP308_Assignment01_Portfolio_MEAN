@@ -1,16 +1,16 @@
 {
-  "name": "taera-assignment-1",
-  "description": "Taera Kwon's Express Site",
+  "name": "linhp-assignment-1",
+  "description": "Phuong Linh Pham's Express Site",
   "main": "server.js",
   "authors": [
-    "Taera Kwon (300755802)"
+    "Phuong Linh Pham (300923800)"
   ],
   "license": "ISC",
   "keywords": [
     "NodeJS",
     "ExpressJS"
   ],
-  "homepage": "https://github.com/taerakwon/taera_assignment_1",
+  "homepage": "https://github.com/ChrisPTheCoder/COMP308_Assignment01_Portfolio",
   "ignore": [
     "**/.*",
     "node_modules",

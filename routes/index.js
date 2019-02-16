@@ -32,10 +32,10 @@ router.get('/projects', (req, res, next) => {
   res.render('contents/projects', { 
     title: 'Projects | Phuong Linh Pham',
     project_progress_1: "Currently under Iteration #2 (Implementation stage)",
-    project_progress_2: "Dynamic form has been created.  Need to create a servlet that connects to MySQL DB",
-    project_progress_3: "This portfolio is the project!",
-    project_completed_1:"VBA compared raw data from legacy SQL Server and compared to new SQL Server raw data.  VBA reduced approximately 30 Hours of working hours for analysts ",
-    project_completed_2:"Click to view screenshot"
+    project_progress_2: "This portfolio is the project!",
+    project_completed_1:"Created 2D top-down shooting game with 3 stages and different levels",
+    project_completed_2:"A web app of user’s movie collection that allows the user to review, rent and buy cinema movies or add to their collections",
+    project_completed_3:"Implemented APIs that manages restaurants, cuisines, tables, orders to satisfy customer’s request  &	Published in Amazon Web Service with RDS and managed an API with APIGee management platform"
   });
 });
 
