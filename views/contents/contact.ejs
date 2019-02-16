@@ -10,6 +10,34 @@
 <div class="container-fluid body">
   <div class="row">
     <div class="col-md-offset-0 col-md-0">
+     <form id="contact-form" method="get" role="form" onsubmit="confirmInput()" action="/">
+                <div class="messages"></div>       
+                <div class="controls">                 
+                            <div class="form-group">
+                                <label for="form_name">First Name *</label>
+                                <input id="form_name" type="text" name="fname" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>                  
+                            <div class="form-group">
+                                <label for="form_lastname">Last Name *</label>
+                                <input id="form_lastname" type="text" name="lname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>                     
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>                      
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">            
+                    </div>
+                </div>
+            </form>
+</div>
       <div class="bodyContainer contact text-center">
         <address>
           <strong>Address</strong>
