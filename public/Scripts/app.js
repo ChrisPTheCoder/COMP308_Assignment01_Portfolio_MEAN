@@ -1,6 +1,7 @@
 /**
  *  Author: Phuong Linh Pham (300923800)
  *  File Name: /Scripts/app.js
+ *  Date: Feb 16,2019
  *  Description: This is where all custom scripts belong
  */
 

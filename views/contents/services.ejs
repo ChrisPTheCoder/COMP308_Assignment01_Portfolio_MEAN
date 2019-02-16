@@ -2,6 +2,7 @@
   Author: Phuong Linh Pham (300923800)
   File Name: views/services.ejs
   Website Name: Projects | Phuong Linh Pham
+  Date: Feb 16,2019
   Description:  This is the projects page '/services'
                 This page contains a list of services that I offer
 -->
@@ -12,15 +13,30 @@
     <div class="col-md-offset-0 col-md-0">
       <div class="bodyContainer services text-center">
         <h2><b>List of services that I can currently offer<b></h2><br>
-        <ol>
-          <li><a href="#" data-toggle="tooltip" title="<%= service_1 %>" class="hvr-skew">Game Development</a></li>
-          <li><a href="#" data-toggle="tooltip" title="<%= service_2 %>" class="hvr-skew">Mobile Application Development</a></li>
-          <li><a href="#" data-toggle="tooltip" title="<%= service_3 %>" class="hvr-skew">Personal Webpage Development</a></li>          
-          <li><a href="#" data-toggle="tooltip" title="<%= service_4 %>" class="hvr-skew">Macro Development</a></li>
-          <li><a href="#" data-toggle="tooltip" title="<%= service_5 %>" class="hvr-skew">System Integration / Development</a></li>
-          <li><a href="#" data-toggle="tooltip" title="<%= service_6 %>" class="hvr-skew">Automation Testing</a></li>
-          <li><a href="#" data-toggle="tooltip" title="<%= service_7 %>" class="hvr-skew">Manual Testing</a></li>
-        </ol>
+        <div class="row home-section">
+	<div class="col-sm-4 col-md-4 column-separator-vertical">
+		<img class="service_icon" src="/Contents/images/app.png" alt="Icon apps" />
+		<a href="#" class="hvr-skew"><h3 class="text-center" itemprop="serviceType">App/Web Development</h3></a>
+		<p class="text-center">
+			I have worked on several native Android applications for clients, including apps e-commerce or real-estate services. 
+		</p>
+	</div>
+	<div class="col-sm-4 col-md-4 column-separator-vertical">
+		<img class="service_icon" src="/Contents/images/game.png" alt="Icon games" />
+		<a href="#" class="hvr-skew"><h3 class="text-center" itemprop="serviceType">Games Development</h3></a>
+		<p class="text-center">
+		The games I create are written in languages like TypeScript and CreateJS.
+		</p>
+	</div>
+	<div class="col-sm-4 col-md-4 column-separator-vertical">
+		<img class="service_icon" src="/Contents/images/cloud.png" alt="Icon server" />
+		<a href="#" class="hvr-skew"><h3 class="text-center" itemprop="serviceType">Backend Development</h3></a>
+		<p class="text-center">
+			Setting up and managing servers whilst creating RESTful APIs to interact with mobile applications is part of my skillset. 
+		</p>
+	</div>
+</div>
+        
       </div> <!-- .bodyContainer services -->
     </div> <!-- .col-md-offset-3 col-md-6 -->
   </div> <!-- .row -->
