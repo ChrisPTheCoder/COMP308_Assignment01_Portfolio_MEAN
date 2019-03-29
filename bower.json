@@ -1,5 +1,5 @@
 {
-  "name": "linhp-assignment-1",
+  "name": "linhp-assignment-2",
   "description": "Phuong Linh Pham's Express Site",
   "main": "server.js",
   "authors": [
@@ -10,7 +10,7 @@
     "NodeJS",
     "ExpressJS"
   ],
-  "homepage": "https://github.com/ChrisPTheCoder/COMP308_Assignment01_Portfolio",
+  "homepage": "https://github.com/ChrisPTheCoder/COMP308_Assignment02_Portfolio_MEAN",
   "ignore": [
     "**/.*",
     "node_modules",

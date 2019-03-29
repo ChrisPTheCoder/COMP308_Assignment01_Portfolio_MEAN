@@ -1,5 +1,5 @@
 {
-  "name": "linhp-assignment-1",
+  "name": "linhp-assignment-2",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -23,7 +23,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisPTheCoder/COMP308_Assignment01_Portfolio.git"
+    "url": "git+https://github.com/ChrisPTheCoder/COMP308_Assignment02_Portfolio_MEAN.git"
   },
   "keywords": [
     "NodeJS",
@@ -32,7 +32,7 @@
   "author": "Phuong Linh Pham (300923800)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChrisPTheCoder/COMP308_Assignment01_Portfolio/issues"
+    "url": "https://github.com/ChrisPTheCoder/COMP308_Assignment02_Portfolio_MEAN/issues"
   },
-  "homepage": "https://github.com/ChrisPTheCoder/COMP308_Assignment01_Portfolio#readme"
+  "homepage": "https://github.com/ChrisPTheCoder/COMP308_Assignment02_Portfolio_MEAN#readme"
 }
